@@ -15,7 +15,7 @@ DEPENDENCY_LINKS = [
 
 ENTRY_POINTS = {
     "console_scripts": [
-        "tlp-cli = transpose_longest_word.main:main",
+        "tlw-cli = transpose_longest_word.main:main",
     ]
 }
 

@@ -10,6 +10,7 @@ def read_words_from_file(file_path: str) -> List[str]:
     :param file_path: Relative or absolute path to the input file
     :return: list of words in the file
     """
+    assert file_path, 'File path is required.'
     with open(file_path) as the_file:
         the_words = [word.strip() for word in the_file.readlines()]
     return the_words
